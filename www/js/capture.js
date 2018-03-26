@@ -1,7 +1,7 @@
 function affichage(){
 var nb=0;	
 var content='';
-       var url = "http://192.168.43.127/projects/app1/prises.php";
+       var url = "http://192.168.43.241/projects/app1/prises.php";
         $.getJSON(url, function(result) {
             console.log(result);
 
