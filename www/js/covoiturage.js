@@ -1,7 +1,7 @@
 function affiche(){
 var nb=0;	
 var content='';
-       var url = "http://192.168.43.127/projects/app1/covoiturage.php";
+       var url = "http://192.168.43.241/projects/app1/covoiturage.php";
         $.getJSON(url, function(result) {
             console.log(result);
 
