@@ -101,7 +101,7 @@ idb=b;
 window.location.href = "shop.html";
 }
 function init(){
-       var url = "http://192.168.43.127/projects/app1/maps.php";
+       var url = "http://192.168.43.241/projects/app1/maps.php";
         $.getJSON(url, function(result) {
             console.log(result);
 			    var infowindow = new google.maps.InfoWindow({
