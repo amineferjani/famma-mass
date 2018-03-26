@@ -2,7 +2,6 @@ function rad(x) {
   return x * Math.PI / 180;
 };
 function fn1(){
-	alert('bonjour1');
 $("#vader").ProgressBarWars({porcentaje:100,
 color:"",
 tiempo:2000,
@@ -12,8 +11,7 @@ alto:"6px",
 setTimeout(fn2, 2000);
 }
 function fn2(){
-//window.location.replace("maps.html");
-	alert('bonjour');
+window.location.replace("maps.html");
 }
 function getDistance(l1,l2,t1,t2) {
   var R = 6378137; // Earth’s mean radius in meter
