@@ -1,7 +1,7 @@
 function init1(idb){
 var nb=0;	
 var content='';
-       var url = "http://192.168.43.127/projects/app1/shop.php?idb=B002";
+       var url = "http://192.168.43.241/projects/app1/shop.php?idb=B002";
         $.getJSON(url, function(result) {
             console.log(result);
 
